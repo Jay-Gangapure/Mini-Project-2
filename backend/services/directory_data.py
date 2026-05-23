@@ -1,0 +1,151 @@
+"""
+Static legal directory: helplines, NGOs, legal contacts.
+"""
+
+LEGAL_DIRECTORY = {
+    "helplines": [
+        {
+            "name": "National Cyber Crime Helpline",
+            "number": "1930",
+            "description": "Report cyber fraud, online scams, social media crimes.",
+            "available": "24x7",
+            "website": "https://cybercrime.gov.in",
+        },
+        {
+            "name": "National Consumer Helpline",
+            "number": "1800-11-4000",
+            "description": "Consumer complaints against defective products and services.",
+            "available": "Mon–Sat, 9:30 AM – 5:30 PM",
+            "website": "https://consumerhelpline.gov.in",
+        },
+        {
+            "name": "Labour Ministry Helpline",
+            "number": "1800-11-6090",
+            "description": "Salary disputes, labour law violations, workplace harassment.",
+            "available": "Mon–Fri, 9 AM – 6 PM",
+            "website": "https://shramsuvidha.gov.in",
+        },
+        {
+            "name": "Police Emergency",
+            "number": "100",
+            "description": "Emergency police assistance.",
+            "available": "24x7",
+            "website": None,
+        },
+        {
+            "name": "Women Helpline",
+            "number": "181",
+            "description": "Support for women in distress, domestic violence, harassment.",
+            "available": "24x7",
+            "website": None,
+        },
+        {
+            "name": "National Legal Services Authority (NALSA)",
+            "number": "15100",
+            "description": "Free legal aid for economically weaker sections.",
+            "available": "Mon–Fri, 10 AM – 5 PM",
+            "website": "https://nalsa.gov.in",
+        },
+        {
+            "name": "RBI Banking Ombudsman",
+            "number": "14448",
+            "description": "Complaints against banks — unauthorised transactions, fraud.",
+            "available": "Mon–Fri, 9 AM – 5 PM",
+            "website": "https://cms.rbi.org.in",
+        },
+        {
+            "name": "Electricity Consumer Grievance",
+            "number": "1912",
+            "description": "Electricity supply complaints, wrongful bills.",
+            "available": "24x7",
+            "website": None,
+        },
+    ],
+    "ngos": [
+        {
+            "name": "Human Rights Law Network (HRLN)",
+            "focus": ["human rights", "labour rights", "women rights"],
+            "website": "https://hrln.org",
+            "email": "hrln@hrln.org",
+            "city": "New Delhi",
+            "description": "Provides free legal aid and representation for marginalised communities.",
+        },
+        {
+            "name": "iCall — Tata Institute of Social Sciences",
+            "focus": ["mental health", "legal counselling", "cyber abuse"],
+            "website": "https://icallhelpline.org",
+            "email": "icall@tiss.edu",
+            "phone": "9152987821",
+            "city": "Mumbai",
+            "description": "Psychosocial helpline offering counselling and legal referrals.",
+        },
+        {
+            "name": "Cyber Peace Foundation",
+            "focus": ["cyber crime", "digital literacy", "online safety"],
+            "website": "https://cyberpeace.org",
+            "email": "info@cyberpeace.org",
+            "city": "New Delhi",
+            "description": "Fights cyber crime, helps victims of online fraud and harassment.",
+        },
+        {
+            "name": "Consumer Voice",
+            "focus": ["consumer rights", "product safety", "food safety"],
+            "website": "https://consumer-voice.org",
+            "email": "info@consumer-voice.org",
+            "city": "New Delhi",
+            "description": "Advocates for consumer rights, assists with complaint filing.",
+        },
+        {
+            "name": "Majlis Legal Centre",
+            "focus": ["women rights", "domestic violence", "family law"],
+            "website": "https://majlislaw.com",
+            "city": "Mumbai",
+            "description": "Legal centre for women dealing with domestic violence, harassment.",
+        },
+        {
+            "name": "Daksha — Tenant Rights NGO",
+            "focus": ["tenant rights", "housing", "eviction"],
+            "website": "https://daksha.in",
+            "city": "Bengaluru",
+            "description": "Works on housing rights and tenant protection in urban areas.",
+        },
+    ],
+    "legal_contacts": [
+        {
+            "name": "District Legal Services Authority (DLSA)",
+            "description": "Provides free legal aid to eligible persons. Present in every district.",
+            "how_to_reach": "Visit your district court and ask for the DLSA office.",
+            "website": "https://nalsa.gov.in",
+        },
+        {
+            "name": "National Consumer Disputes Redressal Commission (NCDRC)",
+            "description": "Top consumer court for claims above ₹1 Crore.",
+            "how_to_reach": "File case at edaakhil.nic.in or visit Connaught Place, New Delhi.",
+            "website": "https://ncdrc.nic.in",
+        },
+        {
+            "name": "Lok Adalat",
+            "description": "Alternative dispute resolution — quick, free, binding settlements.",
+            "how_to_reach": "Contact DLSA or State Legal Services Authority (SLSA).",
+            "website": "https://nalsa.gov.in/lsams",
+        },
+        {
+            "name": "State Human Rights Commission",
+            "description": "Handles human rights violations by state actors.",
+            "how_to_reach": "File complaint online or visit your state capital commission office.",
+            "website": None,
+        },
+        {
+            "name": "Bar Council of India — Lawyer Referral",
+            "description": "Find registered advocates for your case.",
+            "how_to_reach": "Visit barcouncilofindia.org to find enrolled lawyers.",
+            "website": "https://barcouncilofindia.org",
+        },
+        {
+            "name": "Cyber Crime Police Station",
+            "description": "Dedicated police unit for cyber crime FIRs and investigation.",
+            "how_to_reach": "Available in major cities; also file online at cybercrime.gov.in.",
+            "website": "https://cybercrime.gov.in",
+        },
+    ],
+}
