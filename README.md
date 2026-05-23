@@ -240,4 +240,3 @@ This project is for educational and research purposes.
 # 💬 Final Note
 
 NyaySathi aims to make **legal awareness simple, accessible, and actionable for every citizen**.
-***REMOVED***
